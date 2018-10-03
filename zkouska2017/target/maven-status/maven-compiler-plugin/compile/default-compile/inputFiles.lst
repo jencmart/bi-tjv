@@ -1,0 +1,16 @@
+/home/jencmart/Dropbox/development/NetBeansProjects/tjv/zkouska2017/src/main/java/eu/cz/cvut/fit/bi/tjv/jenc/zkouska2017/entity/Producer.java
+/home/jencmart/Dropbox/development/NetBeansProjects/tjv/zkouska2017/src/main/java/eu/cz/cvut/fit/bi/tjv/jenc/zkouska2017/controller/CustomerController.java
+/home/jencmart/Dropbox/development/NetBeansProjects/tjv/zkouska2017/src/main/java/eu/cz/cvut/fit/bi/tjv/jenc/zkouska2017/service/endpoint.java
+/home/jencmart/Dropbox/development/NetBeansProjects/tjv/zkouska2017/src/main/java/eu/cz/cvut/fit/bi/tjv/jenc/zkouska2017/service/ProducerFacadeREST.java
+/home/jencmart/Dropbox/development/NetBeansProjects/tjv/zkouska2017/src/main/java/eu/cz/cvut/fit/bi/tjv/jenc/zkouska2017/controller/ItemCustomerController.java
+/home/jencmart/Dropbox/development/NetBeansProjects/tjv/zkouska2017/src/main/java/eu/cz/cvut/fit/bi/tjv/jenc/zkouska2017/service/ItemCustomerFacadeREST.java
+/home/jencmart/Dropbox/development/NetBeansProjects/tjv/zkouska2017/src/main/java/eu/cz/cvut/fit/bi/tjv/jenc/zkouska2017/service/CustomerFacadeREST.java
+/home/jencmart/Dropbox/development/NetBeansProjects/tjv/zkouska2017/src/main/java/eu/cz/cvut/fit/bi/tjv/jenc/zkouska2017/controller/ItemController.java
+/home/jencmart/Dropbox/development/NetBeansProjects/tjv/zkouska2017/src/main/java/eu/cz/cvut/fit/bi/tjv/jenc/zkouska2017/entity/Customer.java
+/home/jencmart/Dropbox/development/NetBeansProjects/tjv/zkouska2017/src/main/java/eu/cz/cvut/fit/bi/tjv/jenc/zkouska2017/controller/ProducerController.java
+/home/jencmart/Dropbox/development/NetBeansProjects/tjv/zkouska2017/src/main/java/eu/cz/cvut/fit/bi/tjv/jenc/zkouska2017/entity/ItemCustomer.java
+/home/jencmart/Dropbox/development/NetBeansProjects/tjv/zkouska2017/src/main/java/eu/cz/cvut/fit/bi/tjv/jenc/zkouska2017/entity/Item.java
+/home/jencmart/Dropbox/development/NetBeansProjects/tjv/zkouska2017/src/main/java/org/netbeans/rest/application/config/ApplicationConfig.java
+/home/jencmart/Dropbox/development/NetBeansProjects/tjv/zkouska2017/src/main/java/eu/cz/cvut/fit/bi/tjv/jenc/zkouska2017/controller/AbstractController.java
+/home/jencmart/Dropbox/development/NetBeansProjects/tjv/zkouska2017/src/main/java/eu/cz/cvut/fit/bi/tjv/jenc/zkouska2017/service/ItemFacadeREST.java
+/home/jencmart/Dropbox/development/NetBeansProjects/tjv/zkouska2017/src/main/java/eu/cz/cvut/fit/bi/tjv/jenc/zkouska2017/service/AbstractFacade.java

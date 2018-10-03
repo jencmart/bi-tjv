@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1>TicTacToe game for FIR</h1>
+
+        <form method="get" action="GameServiceServlet"> 
+            Player1: <input type="text" id="Player1" name="Player1" value="Josef"><br>
+            Player2:   <input type="text" name="Player2" value ="Charlie"><br>
+            Grid size?:    <input type="text" name="GridSize" value ="6" ><br>
+            Game n to win?    <input type="text" name="GameNtoWin" value ="4" ><br>
+            <input type="submit" name ="SetGame" value="Set game"> <br>
+
+            <button onclick="addToDB()" type="button">Add player1 to DB</button><br>
+        </form>
+
+        <p>Number of players: <b><span id="result">waiting...</span></b></p>
+        
+        <p id="list" onclick="loadList()" style="font-weight: bold;">Click me to load list</p>
+
+        <script>
+            // first, load list of players
+            function loadCount() {
+                var url = "http://localhost:8080/07-TicTacToeGame/rest/player/count";
+                var req = new XMLHttpRequest()
+                // Create the callback:
+                req.onreadystatechange = function () {
+                    if (req.readyState !== 4)
+                        return; // Not there yet
+                    if (req.status !== 200) {
+                        document.getElementById("result").innerHTML = "Status: #" + req.status + ", '" + req.statusText + "'";                        return;
+                    }
+                    // Request successful, read the response
+                    var resp = req.responseText;
+                    document.getElementById("result").innerHTML = resp;
+                }
+                req.open("GET", url, true);
+                req.send();
+            }
+            loadCount();
+
+
+            function addToDB() {
+                var url = "http://localhost:8080/07-TicTacToeGame/rest/player/";
+                var req = new XMLHttpRequest()
+                // Create the callback:
+                req.onreadystatechange = function () {
+                    if (req.readyState !== 4)
+                        return; // Not there yet
+                    if (req.status !== 200 && req.status !== 204) {
+                        document.getElementById("result").innerHTML = "Status: #" + req.status + ", '" + req.statusText + "'";
+                        return;
+                    }
+                    loadCount();
+                }
+                req.open("POST", url, true);
+                req.send(document.getElementById("Player1").value);
+            }
+
+            function loadList() {
+                var url = "http://localhost:8080/07-TicTacToeGame/rest/player/";
+                var req = new XMLHttpRequest()
+                // Create the callback:
+                req.onreadystatechange = function () {
+                    if (req.readyState !== 4)
+                        return; // Not there yet
+                    if (req.status !== 200) {
+                        document.getElementById("result").innerHTML = "Status: #" + req.status + ", '" + req.statusText + "'";
+                        return;
+                    }
+                    // Request successful, read the response
+                    var resp = req.responseText;
+                    document.getElementById("list").innerHTML = resp;
+                }
+                req.open("GET", url, true);
+                req.send();
+            }
+        </script>
+
+    </body>
+</html>
+

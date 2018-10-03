@@ -1,0 +1,17 @@
+eu/cz/cvut/fit/tjv/cv6/tictactoe_cli/game/GameModel$Direction.class
+eu/cz/cvut/fit/tjv/cv6/tictactoe_cli/game/GameControllerCLI.class
+eu/cz/cvut/fit/tjv/cv6/businessLogic/GameServiceBean.class
+eu/cz/cvut/fit/tjv/cv6/tictactoe_cli/game/GameController.class
+eu/cz/cvut/fit/tjv/cv6/tictactoe_cli/game/TicTacToe.class
+eu/cz/cvut/fit/tjv/cv6/tictactoe_cli/game/GameModel.class
+eu/cz/cvut/fit/tjv/cv6/tictactoe_cli/game/GameViewCLI.class
+eu/cz/cvut/fit/tjv/cv6/services/rest/ApplicationConfig.class
+eu/cz/cvut/fit/tjv/cv6/services/rest/PlayersREST.class
+eu/cz/cvut/fit/tjv/cv6/tictactoe_cli/player/Player.class
+eu/cz/cvut/fit/tjv/cv6/tictactoe_cli/player/PlayerViewCLI.class
+eu/cz/cvut/fit/tjv/cv6/tictactoe_cli/game/ServiceCrate.class
+eu/cz/cvut/fit/tjv/cv6/services/web/GameServiceServlet.class
+eu/cz/cvut/fit/tjv/cv6/tictactoe_cli/player/PlayerView.class
+eu/cz/cvut/fit/tjv/cv6/tictactoe_cli/game/MnkGame.class
+eu/cz/cvut/fit/tjv/cv6/tictactoe_cli/game/IllegalTurnException.class
+eu/cz/cvut/fit/tjv/cv6/tictactoe_cli/game/GameView.class

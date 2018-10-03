@@ -1,0 +1,13 @@
+eu/cz/fit/cvut/tjv/RoomEvidence/bean/BuildingController.class
+eu/cz/fit/cvut/tjv/RoomEvidence/services/rest/restEndpoint.class
+eu/cz/fit/cvut/tjv/RoomEvidence/services/rest/RoomREST.class
+eu/cz/fit/cvut/tjv/RoomEvidence/entity/Building_.class
+eu/cz/fit/cvut/tjv/RoomEvidence/entity/Room_.class
+eu/cz/fit/cvut/tjv/RoomEvidence/services/rest/PersonREST.class
+eu/cz/fit/cvut/tjv/RoomEvidence/services/rest/BuildingREST.class
+eu/cz/fit/cvut/tjv/RoomEvidence/entity/Building.class
+eu/cz/fit/cvut/tjv/RoomEvidence/bean/RoomController.class
+eu/cz/fit/cvut/tjv/RoomEvidence/bean/PersonController.class
+eu/cz/fit/cvut/tjv/RoomEvidence/entity/Room.class
+eu/cz/fit/cvut/tjv/RoomEvidence/entity/Person_.class
+eu/cz/fit/cvut/tjv/RoomEvidence/entity/Person.class

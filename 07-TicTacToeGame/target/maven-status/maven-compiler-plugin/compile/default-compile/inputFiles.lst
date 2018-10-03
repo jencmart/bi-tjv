@@ -1,0 +1,16 @@
+/home/jencmart/Dropbox/development/NetBeansProjects/tjv/07-TicTacToeGame/src/main/java/eu/cz/cvut/fit/tjv/cv6/tictactoe_cli/game/GameModel.java
+/home/jencmart/Dropbox/development/NetBeansProjects/tjv/07-TicTacToeGame/src/main/java/eu/cz/cvut/fit/tjv/cv6/tictactoe_cli/player/PlayerViewCLI.java
+/home/jencmart/Dropbox/development/NetBeansProjects/tjv/07-TicTacToeGame/src/main/java/eu/cz/cvut/fit/tjv/cv6/services/rest/PlayersREST.java
+/home/jencmart/Dropbox/development/NetBeansProjects/tjv/07-TicTacToeGame/src/main/java/eu/cz/cvut/fit/tjv/cv6/businessLogic/GameServiceBean.java
+/home/jencmart/Dropbox/development/NetBeansProjects/tjv/07-TicTacToeGame/src/main/java/eu/cz/cvut/fit/tjv/cv6/tictactoe_cli/game/GameViewCLI.java
+/home/jencmart/Dropbox/development/NetBeansProjects/tjv/07-TicTacToeGame/src/main/java/eu/cz/cvut/fit/tjv/cv6/tictactoe_cli/game/TicTacToe.java
+/home/jencmart/Dropbox/development/NetBeansProjects/tjv/07-TicTacToeGame/src/main/java/eu/cz/cvut/fit/tjv/cv6/services/web/GameServiceServlet.java
+/home/jencmart/Dropbox/development/NetBeansProjects/tjv/07-TicTacToeGame/src/main/java/eu/cz/cvut/fit/tjv/cv6/tictactoe_cli/game/MnkGame.java
+/home/jencmart/Dropbox/development/NetBeansProjects/tjv/07-TicTacToeGame/src/main/java/eu/cz/cvut/fit/tjv/cv6/tictactoe_cli/player/Player.java
+/home/jencmart/Dropbox/development/NetBeansProjects/tjv/07-TicTacToeGame/src/main/java/eu/cz/cvut/fit/tjv/cv6/tictactoe_cli/player/PlayerView.java
+/home/jencmart/Dropbox/development/NetBeansProjects/tjv/07-TicTacToeGame/src/main/java/eu/cz/cvut/fit/tjv/cv6/tictactoe_cli/game/IllegalTurnException.java
+/home/jencmart/Dropbox/development/NetBeansProjects/tjv/07-TicTacToeGame/src/main/java/eu/cz/cvut/fit/tjv/cv6/tictactoe_cli/game/ServiceCrate.java
+/home/jencmart/Dropbox/development/NetBeansProjects/tjv/07-TicTacToeGame/src/main/java/eu/cz/cvut/fit/tjv/cv6/tictactoe_cli/game/GameControllerCLI.java
+/home/jencmart/Dropbox/development/NetBeansProjects/tjv/07-TicTacToeGame/src/main/java/eu/cz/cvut/fit/tjv/cv6/tictactoe_cli/game/GameController.java
+/home/jencmart/Dropbox/development/NetBeansProjects/tjv/07-TicTacToeGame/src/main/java/eu/cz/cvut/fit/tjv/cv6/services/rest/ApplicationConfig.java
+/home/jencmart/Dropbox/development/NetBeansProjects/tjv/07-TicTacToeGame/src/main/java/eu/cz/cvut/fit/tjv/cv6/tictactoe_cli/game/GameView.java

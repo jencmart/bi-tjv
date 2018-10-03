@@ -1,0 +1,56 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package eu.cz.cvut.fit.bi.tjv.jenc.semestralka_03_client;
+
+import eu.cz.cvut.fit.bitjv.semsetralka.jenc.entity.Typ;
+import java.util.ArrayList;
+
+import java.util.Arrays;
+import java.util.List;
+import java.util.Collection;
+import javax.ws.rs.client.Client;
+import javax.ws.rs.client.ClientBuilder;
+import javax.ws.rs.client.Entity;
+import javax.ws.rs.client.WebTarget;
+import javax.ws.rs.core.MediaType;
+
+/**
+ *
+ * @author jencmart
+ */
+public class TypClient {
+    
+    private Client client = ClientBuilder.newClient();
+    private WebTarget clientTarget = client.target("http://localhost:8080/semestralka_03/endp/typ");
+    
+    public void remove(Long id) {
+        clientTarget.path("" + id).request().delete();
+    }
+    
+        public void createOrUpdate(Typ typ) {
+        clientTarget.request().post(Entity.entity(typ, MediaType.APPLICATION_JSON));
+    }
+        
+    public List<Typ> selectAll() {
+        Typ[] typy = clientTarget.request(MediaType.APPLICATION_JSON).get(Typ[].class);
+        List<Typ> l = new ArrayList();
+        List<Typ> result = Arrays.asList(typy);
+        return result;
+    } 
+    
+    public Collection<Typ> selectConstrain(String s) {
+        Typ[] typy = clientTarget.path("findC/" + s).request(MediaType.APPLICATION_JSON).get(Typ[].class);
+        List<Typ> l = new ArrayList();
+        List<Typ> result = Arrays.asList(typy);
+        return result;
+    } 
+    
+    public Typ select(long id)
+    {
+        return clientTarget.path("" + id).request(MediaType.APPLICATION_JSON).get(Typ.class);
+    }
+    
+}

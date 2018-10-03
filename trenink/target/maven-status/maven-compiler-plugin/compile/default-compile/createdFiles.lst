@@ -1,0 +1,17 @@
+eu/cz/cvut/fit/bi/tjv/jenc/trenink/service/CustomerFacadeREST.class
+eu/cz/cvut/fit/bi/tjv/jenc/trenink/entity/ItemCustomer.class
+eu/cz/cvut/fit/bi/tjv/jenc/trenink/controller/ItemCustomerController.class
+eu/cz/cvut/fit/bi/tjv/jenc/trenink/controller/ProducerController.class
+eu/cz/cvut/fit/bi/tjv/jenc/trenink/service/ApplicationConfig.class
+eu/cz/cvut/fit/bi/tjv/jenc/trenink/service/ItemFacadeREST.class
+eu/cz/cvut/fit/bi/tjv/jenc/trenink/entity/Producer_.class
+eu/cz/cvut/fit/bi/tjv/jenc/trenink/controller/ItemController.class
+eu/cz/cvut/fit/bi/tjv/jenc/trenink/service/ItemCustomerFacadeREST.class
+eu/cz/cvut/fit/bi/tjv/jenc/trenink/entity/Producer.class
+eu/cz/cvut/fit/bi/tjv/jenc/trenink/entity/Customer_.class
+eu/cz/cvut/fit/bi/tjv/jenc/trenink/entity/ItemCustomer_.class
+eu/cz/cvut/fit/bi/tjv/jenc/trenink/entity/Customer.class
+eu/cz/cvut/fit/bi/tjv/jenc/trenink/service/ProducerFacadeREST.class
+eu/cz/cvut/fit/bi/tjv/jenc/trenink/entity/Item.class
+eu/cz/cvut/fit/bi/tjv/jenc/trenink/entity/Item_.class
+eu/cz/cvut/fit/bi/tjv/jenc/trenink/controller/CustomerController.class
